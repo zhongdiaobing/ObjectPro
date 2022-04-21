@@ -1,6 +1,7 @@
 package com.imooc.array;
 
-public class ArrayDemo2 {
+public class MaxDemo {
+//    方法重载，方法名相同，参数列表不同
     public static void main(String[] args) {
         // 求数组元素的最大值
         int[] a={12,1,32,11,3};
