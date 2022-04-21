@@ -5,4 +5,5 @@ public class Tmp {
         int a=(int)(Math.random()*5);
         System.out.println(a);
     }
+
 }
