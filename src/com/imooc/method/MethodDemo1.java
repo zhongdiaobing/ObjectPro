@@ -42,7 +42,7 @@ public class MethodDemo1 {
         System.out.println("长方形的面积为：" + md.area());
         md.floatMax(1.2f, 2.1f);
         System.out.println(md.fac(3));
-        int sum=0;
+        int sum = 0;
         for (int i = 1; i <= 5; i++) {
             int fac = md.fac(i);
             sum = sum + fac;

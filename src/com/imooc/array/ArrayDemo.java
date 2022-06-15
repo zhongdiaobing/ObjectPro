@@ -3,13 +3,13 @@ package com.imooc.array;
 public class ArrayDemo {
     public static void main(String[] args) {
         // 声明一个整型数组
-        int intArray[];
+        int[] intArray;
         // 声明一个字符串数组
         String strArray[];
         // 创建数组
         intArray=new int[5];
         strArray=new String[10];
-        // 声明数组的同时进行赋值
+        // 声明数组的同时进行创建
         float[] floatArray=new float[4];
         // 初始化数组
         char[] ch={'a','b','c','d'};
