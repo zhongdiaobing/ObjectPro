@@ -23,12 +23,15 @@ public class DataManage {
         return a;
     }
     public void showData(int[] a,int length){
-
+        if (length==a.length){
+            
+        }
     }
 
     public static void main(String[] args) {
         DataManage dm=new DataManage();
         dm.insertData();
+        dm.showData();
     }
 }
 // InputMismatchException
